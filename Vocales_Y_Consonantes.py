@@ -1,7 +1,7 @@
 
-frase_del_usuario = input("Introduce una frase: ").lower()
+frase_del_usuario = input("Introduce una frase: ")
 
-vocales = ["a", "e", "i", "o", "u"]
+vocales = ["a", "e", "i", "o", "u", "A", "E", "I", "O", "U"]
 
 n_vocales = 0
 n_consonantes = 0

@@ -5,7 +5,7 @@ agenda = dict()
 while not salida:
     accion = input("Que quieres hacer? [Añadir cumpleaños[A] / Consultar cumpleaños[C] / Salir [S]: ").upper()
 
-    if accion == "A":
+    if accion == "A".upper():
         print("vamos a añadir un amigo: ")
         nombre = input("Nombre: ")
         cumpleaños = input("Cumpleaños: ")
